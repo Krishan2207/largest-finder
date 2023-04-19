@@ -2,9 +2,9 @@ import streamlit as st
 
 st.write( "# Largest Number Finder App")
 
-num1 = st.number_input("FN")
-num2 = st.number_input("SN")
-num3 = st.number_input("TN")
+num1 = st.number_input("Enter First Number")
+num2 = st.number_input("Enter Second Number")
+num3 = st.number_input("Enter Third Number")
 
 max_num = num1
 
