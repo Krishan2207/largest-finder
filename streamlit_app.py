@@ -14,4 +14,4 @@ if num2 > max_num:
 if num3 > max_num:
     max_num = num3
 
-print("The maximum number is", max_num)
+st.write("The maximum number is", max_num)
