@@ -1,7 +1,7 @@
 import streamlit as st 
 
 st.write( "# Largest Number Finder App")
-st.number_input(First_Number, min_value=None, max_value=None, value=float, step=None, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, *, disabled=False, label_visibility="visible")
+st.number_input(First_Number, min_value=None, max_value=None, value=float, step=None, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
 
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
