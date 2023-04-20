@@ -14,5 +14,5 @@ if num2 > max_num:
 if num3 > max_num:
     max_num = num3
 
-st.subheader("The maximum of above given given numbers is")
+st.subheader("The maximum of above given numbers is")
 st.write(max_num)
